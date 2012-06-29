@@ -1,9 +1,8 @@
 <?php
 //CHANGE THESE VALUES FOR YOUR OWN EXAMPLE
 define('REMOTE_HOST','streamer.loc');
-define('REMOTE_PORT','8081')
+define('REMOTE_PORT','8081');
 
-echo $_SERVER['REQUEST_METHOD'];
 if($_SERVER['REQUEST_METHOD'] =='GET'){
 ?>
    <h1>Socket forwarder example</h1>
